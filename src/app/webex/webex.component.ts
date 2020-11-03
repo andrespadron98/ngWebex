@@ -6,6 +6,7 @@ import Webex from 'webex';
   templateUrl: './webex.component.html',
   styleUrls: ['./webex.component.css']
 })
+
 export class WebexComponent implements OnInit {
   token: string;
   registered: boolean;
